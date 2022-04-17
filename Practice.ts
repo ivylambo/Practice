@@ -1,19 +1,10 @@
-var a = "mom"
-var b = "dad"
-var c = "dog"
 
-var arr = [a, b, c];
-var arr2 = ["d" , "e" , "f" ];
-var arr3 = [arr, arr2];
-console.log(arr3[0][0])
+var a = 4
 
+var arr = [1, 2, 3, 4, 5, 6, 7]
 
-
-
-
-
-
-
-
-
-
+for (var i = 0; i< arr.length; i++) {
+    if ((i % 2) != 0) {
+        console.log(arr[i])
+    }
+}
